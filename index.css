@@ -292,3 +292,124 @@ footer{
     display: flex;
     align-items: center;
 }
+
+/* To make Responsive..... */
+
+@media (max-width:600px) {
+    /* Navbar */
+    body{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar{
+        width:100%;
+        padding:20px 0;
+        height:5vh;
+    }
+    .nav-icon{
+        font-size: 1.5rem;
+    }  
+    .nav-products a{
+        display:none;
+    }
+   .btn{
+    padding: 4px 4.5px;
+    font-size: 0.75rem;
+   }
+
+   /* Hero section */
+    .hero-sec{
+     height: 30vh;
+     background-size:cover;   
+    }
+    .hero-sec p{
+        font-size: 1.5rem;
+        position: relative;
+        top:23vh;
+        left:5%;
+    }
+    form{
+        width:100%;
+        height:70vh;
+        position:absolute;
+        top:30vh;
+        left: 0;
+
+    }
+
+    /* All-partners */
+    .all-partners{
+        height:25vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .all-partners p{
+        font-size: 0.75rem;
+    }
+   .res-all-partners{
+        margin-top:70vh;
+   }
+   .trust-icon i{
+    font-size: 1.5rem;
+    padding: 10px;
+   }
+   
+   /* section */
+   .sec-title{
+    font-size: 1.5rem;
+   }
+   .sec-opt{
+    /* margin-right:70px; */
+    color: #e71c24;
+    font-weight: 500;
+   }
+   .img-sec{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    padding:5px;
+   }
+   .img-opt{
+    margin-bottom: 5%;
+    height:32vh;
+    width:85%;
+   }
+
+   /* Refer section */
+   .refer-sec{
+    height:80vh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+   .refer-opt span{
+    font-size: 1.5rem;
+   }
+   .refer-opt p{
+       font-size:0.85rem;
+   }
+    
+   /* copyright */
+   .copyright{
+    height:20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .contact span{
+        margin-top:10px;
+    }
+    footer{
+        margin-top: 10vh;
+        height: 10vh;
+    }
+}
